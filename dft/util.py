@@ -1,5 +1,3 @@
-from timeit import repeat
-from matplotlib import projections
 from matplotlib.animation import FuncAnimation
 import numpy as np
 import matplotlib.pyplot as plt
