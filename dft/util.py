@@ -64,7 +64,7 @@ class VisualizeFourierTransform:
 
         self.ax1 = self.fig.add_subplot(1,4,1,projection='polar')
         self.ax1.set_rticks([])
-        self.l1, = self.ax1.plot(self.theta_, self.r_)
+        self.l1, = self.ax1.plot(self.theta_, self.r_, linewidth=0.75)
         self.l2 = self.ax1.scatter(self.ctheta_, self.cr_, color='red')
         # self.ax.set_title(f'Frequency: {winding_freq}')
 
