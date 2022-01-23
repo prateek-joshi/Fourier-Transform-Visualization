@@ -74,6 +74,7 @@ class VisualizeFourierTransform:
         self.ax2.set_xlim([0,10])
         self.ax2.set_ylim([-0.1,2.1])
         self.ax2.set_xticks(range(0,11))
+        self.ax2.set_xlabel('Frequency')
         self.com, = self.ax2.plot(self.winding_frequency, self.com_r, color='red')
 
         return self.l1, self.l2, self.com, self.title
